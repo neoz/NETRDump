@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETRDump", "NETRDump.csproj", "{E8963B93-04D2-4E1C-8778-237EFB2235FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tool.Interface", "..\ToolLoader\Tool.Interface\Tool.Interface.csproj", "{D8EC7297-EB69-4214-A15C-36E29414CCB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8963B93-04D2-4E1C-8778-237EFB2235FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8963B93-04D2-4E1C-8778-237EFB2235FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8963B93-04D2-4E1C-8778-237EFB2235FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8963B93-04D2-4E1C-8778-237EFB2235FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EC7297-EB69-4214-A15C-36E29414CCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EC7297-EB69-4214-A15C-36E29414CCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EC7297-EB69-4214-A15C-36E29414CCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EC7297-EB69-4214-A15C-36E29414CCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A53BEF5B-4882-423A-B60E-4152D7D563B6}
+	EndGlobalSection
+EndGlobal

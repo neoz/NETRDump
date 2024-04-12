@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Title>$(ProjectName)</Title>
+		<Version>1.0.0.0</Version>
+		<Copyright>Copyright © 2018-2022 Wwh</Copyright>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net40</TargetFramework>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>10.0</LangVersion>
+		<OutputPath>.\bin\$(Configuration)</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<PackageOutputPath>$(OutputPath)</PackageOutputPath>
+		<BaseOutputPath>.\bin</BaseOutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="dnlib" Version="4.4.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\ToolLoader\Tool.Interface\Tool.Interface.csproj" />
+	</ItemGroup>
+</Project>
